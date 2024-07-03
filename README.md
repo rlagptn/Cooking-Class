@@ -1,4 +1,4 @@
-# Cooking Class App
+# Cooking Class
 
 Explore the world of culinary delights with the Cooking Class App! Discover a variety of recipes, manage cooking timers, and share your culinary experiences effortlessly.
 
