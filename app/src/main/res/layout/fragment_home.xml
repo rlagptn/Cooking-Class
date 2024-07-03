@@ -1,0 +1,92 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/culinaryImageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_food_foreground" />
+
+        <TextView
+            android:id="@+id/welcomeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:padding="16dp"
+            android:text="Welcome to the Cooking Class App!"
+            android:textColor="#2D6E2F"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/usageInstructionsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:padding="16dp"
+            android:text="Here you can find various recipes, set cooking timers, and provide feedback on recipes."
+            android:textColor="#2D6E2F"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/featuredRecipesTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Featured Recipes"
+            android:textColor="#2D6E2F"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/featuredRecipe1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Spaghetti Bolognese - Quick and easy Italian favorite."
+            android:textColor="#2D6E2F"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/featuredRecipe2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Chicken Curry - Fragrant and flavorful Indian dish."
+            android:textColor="#2D6E2F"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/cookingTipsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Cooking Tips"
+            android:textColor="#2D6E2F"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cookingTip1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Use fresh ingredients for better taste."
+            android:textColor="#2D6E2F"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/cookingTip2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Don't forget to preheat the oven before baking."
+            android:textColor="#2D6E2F"
+            android:textSize="16sp" />
+        </LinearLayout>
+</ScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:padding="16dp"
+        android:text="Feedback"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#2D6E2F"
+        android:textSize="50sp"
+        android:textStyle="bold"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="250dp"
+        android:numStars="5"
+        android:stepSize="1.0" />
+
+    <EditText
+        android:id="@+id/feedbackEditText"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Write your cooking notes or review"
+        android:textAlignment="center"
+        android:minHeight="48dp" />
+
+    <Switch
+        android:id="@+id/anonymousSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="480dp"
+        android:minHeight="48dp"
+        android:text="Share the feedback with the community" />
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="#2D6E2F"
+        android:text="Submit" />
+
+</FrameLayout>
