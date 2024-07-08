@@ -43,9 +43,7 @@ The Cooking Class App is your go-to companion for everything related to cooking:
 - Rate recipes and provide reviews.
 - Opt-in to share feedback with the cooking community.
 
-## Technologies Used
+## Tech Stack
 
-- Java
-- Android SDK
-- XML
-- Git
+- Programming Language: Java
+- Development Tool: Android SDK
