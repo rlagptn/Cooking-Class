@@ -44,6 +44,5 @@ The Cooking Class App is your go-to companion for everything related to cooking:
 - Opt-in to share feedback with the cooking community.
 
 ## Tech Stack
-
-- Programming Language: Java
-- Development Tool: Android SDK
+- **Java**: Core Language
+- **Android SDK**: Development Tool
